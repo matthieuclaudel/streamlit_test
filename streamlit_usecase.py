@@ -6,7 +6,7 @@ import seaborn as sns
 
 
 
-df=pd.read_csv("/Users/matthieuclaudel/Documents/Formation_MLE/sprint/sprint10/Streamlit/train.csv")
+df=pd.read_csv("train.csv")
 
 st.title("Projet de classification binaire Titanic")
 st.sidebar.title("Sommaire")
